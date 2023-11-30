@@ -1,7 +1,7 @@
 <?php
-define('DB_SERVER', 'localhost');
+define('DB_SERVER', '10.148.0.11');
 define('DB_USERNAME', 'root');
-define('DB_PASSWORD', 'mysql@ime');
+define('DB_PASSWORD', 'mysql_ime');
 define('DB_DATABASE', 'storybook');
 define('SECRET_KEY', 'This is my story book');
 define('SECRET_IV', 'This is my story book');
