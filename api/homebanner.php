@@ -4,7 +4,7 @@ include '../controllers/apicontrollers.php';
 $apicontroller=new Apicontrollers();
 
 
-$appid = '134010014';//$_POST['appid'];
+$appid = '134010015';//$_POST['appid'];
         $ip = '';
         if (isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
             $arr = explode(',', $_SERVER['HTTP_X_FORWARDED_FOR']);
@@ -19,7 +19,7 @@ $appid = '134010014';//$_POST['appid'];
             $ip = $_SERVER['REMOTE_ADDR'];
 	}
 	$data = [
-		'app_id'=>'134010014',
+		'app_id'=>'134010015',
 		'ip'=>$ip,
 		'package_version'=>'1',
 		'client'=>'android'
