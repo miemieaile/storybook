@@ -39,4 +39,4 @@ RUN sed -i 's/80/${PORT}/g' /etc/apache2/sites-available/000-default.conf /etc/a
 # https://github.com/docker-library/docs/blob/master/php/README.md#configuration
 RUN mv "$PHP_INI_DIR/php.ini-development" "$PHP_INI_DIR/php.ini"
 RUN chmod -R 777 /var/www/html
-RUN chmown -R www-data:www-data /var/www/html
+RUN chown -R www-data:www-data /var/www/html
